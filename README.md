@@ -31,6 +31,7 @@ Este repositório contém as instruções e configurações necessárias para in
 ## Preenchimento do Modelo de Banco de Dados
 
 Para preencher o modelo do banco de dados, foi criado um comando que executa um script. Este script salva na entidade cada valor de código e nome do banco. É realizada uma verificação para saber se a entidade já possui aqueles valores da planilha.
+Esse command é executado no up do container por padrao, mas tambem pode ser chamado a qualquer momento por pythonn manage.py preencher_tabela_banco.
 
 ## Nota Final
 
